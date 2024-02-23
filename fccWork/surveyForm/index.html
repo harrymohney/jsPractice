@@ -1,0 +1,67 @@
+<link rel="stylesheet" href="styles.css">
+<h1 id="title">How can mushroom change your life?</h1>
+<p id="description">Thank you for taking the time to help the psychedelic movement!</p>
+<form id="survey-form">
+  <div class="input-element">
+    <label id="name-label">
+      Name
+    </label>
+  <input placeholder="name" id="name" type="text" required/>
+  </div>
+  <div class="input-element">
+    <label id="email-label">
+      Email
+    </label>
+  <input placeholder="email" id="email" type="email" required/>
+  </div>
+  <div class="input-element">
+    <label id="number-label">
+      Age
+    </label>
+  <input placeholder="age" id="number" type="number" min="18" max="115" required/>
+  </div>
+  <div class="input-element">
+    <label id="select-label">
+      What's your favorite strain?
+    </label>
+    <select id="dropdown">
+      <option>Penis Envy</option>
+      <option> Albino Penis Envy</option>
+      <option>Golden Teacher</option>
+      <option>Mazatapec</option>
+      <option>B+</option>
+      <option>AA+</option>
+      <option>Mazatapec</option>
+      <option>Burma</option>
+    </select>
+  </div>
+  <div class="input-element">
+    <label>Have you tried mushrooms before?</label>
+    <div>
+    <label><input type="radio" name="consumed" value="yes">Yes</label>
+    </div>
+    <div>
+    <label><input type="radio" name="consumed" value="no">No</label>
+    </div>
+  </div>
+  <div class="input-element">
+    <label>What were the type of effects?</label>
+    <div>
+    <label><input type="checkbox" name="effects" value="visuals">Visuals</label>
+    </div>
+    <div>
+    <label><input type="checkbox" name="effects" value="thoughts">Though loop</label>
+    </div>
+    <div>
+    <label><input type="checkbox" name="effects" value="mentality">Mental Clarity</label>
+    </div>
+    <div>
+    <label><input type="checkbox" name="effects" value="euphoria">Euphoria</label>
+    </div>
+  </div>
+  <div class="input-element">
+    <label>Additional Comments</label>
+    <textarea type="text"></textarea>
+  </div>
+  <button type="submit" id="submit">Submit</button>
+</form>
