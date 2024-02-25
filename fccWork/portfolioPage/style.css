@@ -1,0 +1,72 @@
+#navbar {
+  background-color: #333;
+  position: sticky;
+  top: 0; /* Navbar always at the top of the viewport */
+  display: flex;
+  justify-content: center;
+}
+
+#navbar a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+/* Reset some default browser styles */
+body, h1, h2, p, a {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Welcome section styles */
+#welcome-section {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0; /* Set the height of the welcome section to the viewport height */
+}
+
+#welcome-section h1 {
+  font-size: 2rem;
+}
+
+
+
+/* Projects section styles */
+#projects {
+  padding: 50px;
+}
+
+.project-tile {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.project-tile h2 {
+  font-size: 1.5rem;
+}
+
+.project-link {
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #333;
+  background-color: #ccc;
+  padding: 5px 10px;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  #welcome-section h1 {
+      font-size: 1.5rem;
+  }
+
+  .project-tile {
+      padding: 10px;
+  }
+}
