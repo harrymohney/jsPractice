@@ -9,3 +9,4 @@ function canJump(nums) {
 }
 // Test
 console.log(canJump([2, 3, 1, 1, 4])); // Output: true
+c
