@@ -1,4 +1,4 @@
-xfunction sumEvenAfterQueries(A, queries) {
+function sumEvenAfterQueries(A, queries) {
   let sum = A.filter(x => x % 2 === 0).reduce((a, b) => a + b, 0);
   const result = [];
   for (const [val, index] of queries) {
